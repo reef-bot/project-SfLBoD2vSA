@@ -1,0 +1,61 @@
+File: moderation-discord-bot/dashboard/index.html
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moderation Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Moderation Dashboard</h1>
+    </header>
+
+    <section id="config-section">
+        <h2>Bot Configuration</h2>
+        <form id="config-form">
+            <label for="spam-threshold">Spam Detection Threshold:</label>
+            <input type="number" id="spam-threshold" name="spam-threshold" min="1" required>
+            <label for="language-filter">Language Filter Level:</label>
+            <select id="language-filter" name="language-filter" required>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+            <input type="submit" value="Save Configuration">
+        </form>
+    </section>
+
+    <section id="logging-section">
+        <h2>Logging</h2>
+        <div id="log-container">
+            <!-- Log messages will be dynamically added here -->
+        </div>
+    </section>
+
+    <section id="reputation-section">
+        <h2>User Reputation System</h2>
+        <p>This feature is under development. Check back soon!</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+```
+
+Explanation:
+- The index.html file contains the structure for the moderation dashboard.
+- It includes sections for bot configuration, logging, and user reputation system.
+- The form in the configuration section allows users to set the spam detection threshold and language filter level.
+- The logging section has a container to display log messages.
+- The reputation section indicates that this feature is under development.
+- The script.js file is linked at the end for interactive functionality.
+
+This HTML file provides the basic layout for the moderation dashboard and will be styled using the accompanying style.css file. The script.js file will handle dynamic content updates and user interactions.
