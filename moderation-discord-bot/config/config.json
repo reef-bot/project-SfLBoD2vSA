@@ -1,0 +1,32 @@
+{
+  "prefix": "!",
+  "spamDetection": {
+    "enabled": true,
+    "threshold": 5
+  },
+  "languageFilter": {
+    "enabled": true,
+    "blacklist": ["offensive_word1", "offensive_word2"]
+  },
+  "logging": {
+    "enabled": true,
+    "logChannel": "mod-logs"
+  },
+  "integration": {
+    "enabled": true,
+    "roleSystem": {
+      "adminRole": "Admin",
+      "moderatorRole": "Moderator"
+    }
+  },
+  "scheduling": {
+    "enabled": true
+  },
+  "dashboard": {
+    "enabled": true,
+    "url": "https://your-dashboard-url.com"
+  },
+  "reputationSystem": {
+    "enabled": true
+  }
+}
