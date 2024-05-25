@@ -1,0 +1,79 @@
+/* style.css */
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Navigation styles */
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #444;
+  padding: 0.5rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main content styles */
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 1rem;
+}
+
+/* Sidebar styles */
+.sidebar {
+  background-color: #555;
+  color: #fff;
+  padding: 1rem;
+}
+
+/* Dashboard content styles */
+.dashboard-content {
+  background-color: #eee;
+  padding: 1rem;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .main-content {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    display: none;
+  }
+} 
+
+/* Custom styles for specific elements based on dashboard requirements */
+/* Add any additional custom styles based on specific dashboard elements or functionality */ 
+
+/* End of style.css */
